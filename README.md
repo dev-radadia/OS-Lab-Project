@@ -4,15 +4,15 @@ This C++ project implements a simulation of a Barber Shop using Semaphores along
 
 ## Requirements
 - C++ compiler (GCC or Clang)
-- Make utility
+- 'pthread' library
 
 ## How to Build and Run
 1. Download or clone the project files.
 2. Open a terminal or command prompt and navigate to the project directory.
-3. Run the following command to build the project:
+3. Compile the source code using the following command:
 
    ```
-   make
+   g++ -std=c++11 -pthread barber_shop.cpp -o barber_shop
    ```
    
 4. Run the following command to start the simulation:
